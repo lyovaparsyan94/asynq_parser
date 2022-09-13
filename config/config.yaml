@@ -1,0 +1,27 @@
+general:
+  urls:
+    - "https://www.list.am/ru/category/56?cmtype=1&pfreq=1&n=3&price1=&price2=150001&crc=0&_a5=0&_a39=0&_a11_1=2&_a11_2=&_a4=0&_a37=0&_a3_1=&_a3_2=&_a38=0&gl=2"
+  period: 60
+
+notifiers:
+  slack:
+    enable: False
+    webhooks:
+      - 1
+      - 2
+
+  email:
+    enable: False
+    username: username
+    password: password
+    from: from@gmail.com
+    to: to@gmail.com
+
+  telegram:
+    enable: False
+    chat_ids:
+      new_homes_chat_id: -739569967
+      all_homes: -796550926
+    token: "YOUR TOKEN HERE"
+
+
